@@ -3,10 +3,6 @@ Project 2
 Tiffany Craft
 2023-10-07
 
-``` r
-options(knitr.duplicate.label = "allow")
-```
-
 <!-- adding the code chunk to render the document -->
 
 ``` r

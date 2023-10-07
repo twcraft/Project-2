@@ -3,9 +3,6 @@ title: "Project 2"
 author: "Tiffany Craft"
 date: "2023-10-07"
 ---
-```{r options}
-options(knitr.duplicate.label = "allow")
-```
 
 <!-- adding the code chunk to render the document -->
 ```{r render, eval=FALSE}

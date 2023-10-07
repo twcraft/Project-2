@@ -3,14 +3,23 @@ Project 2
 Tiffany Craft
 2023-10-07
 
-This is my test. Let’s run some code.
+- [Required Packages](#required-packages)
+- [Functions to Contact API](#functions-to-contact-api)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Reflection](#reflection)
+
+# Required Packages
+
+`httr` `jsonline` `tidyverse`
 
 ``` r
+library(httr)
+library(jsonlite)
 library(tidyverse)
 ```
 
-``` r
-plot(iris$Sepal.Length, iris$Sepal.Width)
-```
+# Functions to Contact API
 
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+# Exploratory Data Analysis (EDA)
+
+# Reflection

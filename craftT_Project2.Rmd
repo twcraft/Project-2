@@ -1,15 +1,14 @@
-Project 2
-================
-Tiffany Craft
-2023-10-07
-
-``` r
+---
+title: "Project 2"
+author: "Tiffany Craft"
+date: "2023-10-07"
+---
+```{r options}
 options(knitr.duplicate.label = "allow")
 ```
 
 <!-- adding the code chunk to render the document -->
-
-``` r
+```{r render, eval=FALSE}
 rmarkdown::render("craftt_Project2.Rmd", 
                    output_format = "github_document",
                    output_file = "README.md",

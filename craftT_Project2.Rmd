@@ -3,3 +3,14 @@ title: "Project 2"
 author: "Tiffany Craft"
 date: "2023-10-07"
 ---
+
+This is my test. Let's run some code.
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+

@@ -317,7 +317,7 @@ plot1 <- ggplot(femaleByCountry, aes(x = birthCountry, y =count)) +
 plot1
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 This looks better, but it is a bit difficult to read because of the
 number of countries included. I decided to try plotting the same data in
@@ -330,7 +330,7 @@ plot2 <- ggplot(femaleByCountry, aes(area = count, fill = count, label = birthCo
 plot2
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 The treemap is nice because it helps to really highlight which countries
 have the most female Nobel Prize Winners based on the size of their
@@ -353,7 +353,7 @@ plot3 <- ggplot(twoPlusFemales, aes(x = birthCountry, y =count)) +
 plot3
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 Based on this new graph, we can see that the majority of countries with
 two or more female Nobel Prize winners are located in either Europe or
@@ -445,7 +445,7 @@ plot4 <- ggplot(nobelPrizes, aes(x = prizeAmount, fill = category)) +
 plot4
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 Based on the table and boxplot, we can see that the prize amount
 generally does not vary by category, except for the category of Economic
@@ -494,7 +494,7 @@ plot5 <- ggplot(nobelPrizes, aes(x = awardYear, y = prizeAmount, color = prizeAm
 plot5
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 The plot shows that while the prize amount awarded has increased since
 the Nobel Prize awards were established, this increase has not been at a

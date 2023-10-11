@@ -6,6 +6,6 @@ rmarkdown::render("craftt_Project2.Rmd",
                    output_options = list(
                      toc = TRUE,
                      toc_depth = 2,
-                     df_print = "paged")
+                     df_print = "tibble")
  )
 

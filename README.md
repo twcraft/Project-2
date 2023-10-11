@@ -297,37 +297,21 @@ table(winners$gender, winners$birthCountry)
 ```
 
     ##         
-    ##          Argentina Australia
-    ##   female         0         1
-    ##   male           4         9
+    ##          Argentina Australia Austria
+    ##   female         0         1       1
+    ##   male           4         9      15
     ##         
-    ##          Austria
-    ##   female       1
-    ##   male        15
+    ##          Austria-Hungary Austrian Empire
+    ##   female               1               1
+    ##   male                12               3
     ##         
-    ##          Austria-Hungary
-    ##   female               1
-    ##   male                12
+    ##          Bavaria Belgian Congo Belgium
+    ##   female       0             0       0
+    ##   male         1             1       9
     ##         
-    ##          Austrian Empire
-    ##   female               1
-    ##   male                 3
-    ##         
-    ##          Bavaria
-    ##   female       0
-    ##   male         1
-    ##         
-    ##          Belgian Congo
-    ##   female             0
-    ##   male               1
-    ##         
-    ##          Belgium Bosnia
-    ##   female       0      0
-    ##   male         9      1
-    ##         
-    ##          Brazil British India
-    ##   female      0             0
-    ##   male        1             2
+    ##          Bosnia Brazil British India
+    ##   female      0      0             0
+    ##   male        1      1             2
     ##         
     ##          British Mandate of Palestine
     ##   female                            1
@@ -337,57 +321,33 @@ table(winners$gender, winners$birthCountry)
     ##   female                                 0
     ##   male                                   1
     ##         
-    ##          British West Indies
-    ##   female                   0
-    ##   male                     1
+    ##          British West Indies Bulgaria Burma
+    ##   female                   0        0     1
+    ##   male                     1        1     0
     ##         
-    ##          Bulgaria Burma
-    ##   female        0     1
-    ##   male          1     0
+    ##          Canada Chile China Colombia
+    ##   female      2     1     1        0
+    ##   male       19     1    10        2
     ##         
-    ##          Canada Chile China
-    ##   female      2     1     1
-    ##   male       19     1    10
+    ##          Costa Rica Crete Cyprus
+    ##   female          0     0      0
+    ##   male            1     1      1
     ##         
-    ##          Colombia Costa Rica
-    ##   female        0          0
-    ##   male          2          1
+    ##          Czechoslovakia Denmark
+    ##   female              0       1
+    ##   male                1      11
     ##         
-    ##          Crete Cyprus
-    ##   female     0      0
-    ##   male       1      1
+    ##          East Friesland East Timor Egypt
+    ##   female              0          0     1
+    ##   male                1          2     5
     ##         
-    ##          Czechoslovakia
-    ##   female              0
-    ##   male                1
+    ##          Ethiopia Faroe Islands (Denmark)
+    ##   female        0                       0
+    ##   male          1                       1
     ##         
-    ##          Denmark
-    ##   female       1
-    ##   male        11
-    ##         
-    ##          East Friesland
-    ##   female              0
-    ##   male                1
-    ##         
-    ##          East Timor Egypt
-    ##   female          0     1
-    ##   male            2     5
-    ##         
-    ##          Ethiopia
-    ##   female        0
-    ##   male          1
-    ##         
-    ##          Faroe Islands (Denmark)
-    ##   female                       0
-    ##   male                         1
-    ##         
-    ##          Finland France
-    ##   female       0      6
-    ##   male         2     52
-    ##         
-    ##          Free City of Danzig
-    ##   female                   0
-    ##   male                     1
+    ##          Finland France Free City of Danzig
+    ##   female       0      6                   0
+    ##   male         2     52                   1
     ##         
     ##          French Algeria
     ##   female              0
@@ -397,161 +357,89 @@ table(winners$gender, winners$birthCountry)
     ##   female                              0
     ##   male                                1
     ##         
-    ##          German-occupied Poland
-    ##   female                      0
-    ##   male                        1
+    ##          German-occupied Poland Germany
+    ##   female                      0       3
+    ##   male                        1      77
     ##         
-    ##          Germany Gold Coast
-    ##   female       3          0
-    ##   male        77          1
+    ##          Gold Coast Guadeloupe Island
+    ##   female          0                 0
+    ##   male            1                 1
     ##         
-    ##          Guadeloupe Island
-    ##   female                 0
-    ##   male                   1
+    ##          Guatemala Hesse-Kassel Hungary
+    ##   female         1            0       1
+    ##   male           1            1       8
     ##         
-    ##          Guatemala
-    ##   female         1
-    ##   male           1
+    ##          Iceland India Iran Iraq Ireland
+    ##   female       0     0    2    1       0
+    ##   male         1    10    0    0       5
     ##         
-    ##          Hesse-Kassel Hungary
-    ##   female            0       1
-    ##   male              1       8
+    ##          Italy Japan
+    ##   female     2     0
+    ##   male      16    28
     ##         
-    ##          Iceland India Iran
-    ##   female       0     0    2
-    ##   male         1    10    0
+    ##          Java, Dutch East Indies Kenya
+    ##   female                       0     1
+    ##   male                         1     0
     ##         
-    ##          Iraq Ireland Italy
-    ##   female    1       0     2
-    ##   male      0       5    16
+    ##          Korea Lebanon Liberia Lithuania
+    ##   female     0       0       2         0
+    ##   male       2       1       0         1
     ##         
-    ##          Japan
-    ##   female     0
-    ##   male      28
+    ##          Luxembourg Madagascar Mecklenburg
+    ##   female          0          0           0
+    ##   male            2          1           1
     ##         
-    ##          Java, Dutch East Indies
-    ##   female                       0
-    ##   male                         1
+    ##          Mexico Morocco New Zealand Nigeria
+    ##   female      0       0           0       0
+    ##   male        3       1           3       1
     ##         
-    ##          Kenya Korea Lebanon
-    ##   female     1     0       0
-    ##   male       0     2       1
+    ##          Northern Ireland Norway
+    ##   female                2      1
+    ##   male                  3     12
     ##         
-    ##          Liberia Lithuania
-    ##   female       2         0
-    ##   male         0         1
+    ##          Ottoman Empire Pakistan Persia
+    ##   female              1        1      1
+    ##   male                1        0      0
     ##         
-    ##          Luxembourg
-    ##   female          0
-    ##   male            2
+    ##          Peru Philippines Poland Portugal
+    ##   female    0           1      2        0
+    ##   male      1           0      7        2
     ##         
-    ##          Madagascar
-    ##   female          0
-    ##   male            1
+    ##          Prussia Romania Russia
+    ##   female       0       1      0
+    ##   male        13       3     18
     ##         
-    ##          Mecklenburg Mexico
-    ##   female           0      0
-    ##   male             1      3
+    ##          Russian Empire Saint Lucia
+    ##   female              1           0
+    ##   male               15           1
     ##         
-    ##          Morocco New Zealand
-    ##   female       0           0
-    ##   male         1           3
+    ##          Schleswig Scotland South Africa
+    ##   female         0        0            1
+    ##   male           2       11            8
     ##         
-    ##          Nigeria
-    ##   female       0
-    ##   male         1
+    ##          Southern Rhodesia Spain Sweden
+    ##   female                 0     0      2
+    ##   male                   1     7     28
     ##         
-    ##          Northern Ireland
-    ##   female                2
-    ##   male                  3
+    ##          Switzerland Taiwan the Netherlands
+    ##   female           0      0               0
+    ##   male            19      1              19
     ##         
-    ##          Norway
-    ##   female      1
-    ##   male       12
+    ##          Tibet Trinidad and Tobago Turkey
+    ##   female     0                   0      0
+    ##   male       1                   1      2
     ##         
-    ##          Ottoman Empire
-    ##   female              1
-    ##   male                1
+    ##          Tuscany Ukraine United Kingdom USA
+    ##   female       0       1              0  17
+    ##   male         1       0             89 272
     ##         
-    ##          Pakistan Persia Peru
-    ##   female        1      1    0
-    ##   male          0      0    1
+    ##          USSR Venezuela Vietnam
+    ##   female    0         0       0
+    ##   male      7         1       1
     ##         
-    ##          Philippines Poland
-    ##   female           1      2
-    ##   male             0      7
-    ##         
-    ##          Portugal Prussia
-    ##   female        0       0
-    ##   male          2      13
-    ##         
-    ##          Romania Russia
-    ##   female       1      0
-    ##   male         3     18
-    ##         
-    ##          Russian Empire
-    ##   female              1
-    ##   male               15
-    ##         
-    ##          Saint Lucia
-    ##   female           0
-    ##   male             1
-    ##         
-    ##          Schleswig Scotland
-    ##   female         0        0
-    ##   male           2       11
-    ##         
-    ##          South Africa
-    ##   female            1
-    ##   male              8
-    ##         
-    ##          Southern Rhodesia
-    ##   female                 0
-    ##   male                   1
-    ##         
-    ##          Spain Sweden
-    ##   female     0      2
-    ##   male       7     28
-    ##         
-    ##          Switzerland Taiwan
-    ##   female           0      0
-    ##   male            19      1
-    ##         
-    ##          the Netherlands
-    ##   female               0
-    ##   male                19
-    ##         
-    ##          Tibet
-    ##   female     0
-    ##   male       1
-    ##         
-    ##          Trinidad and Tobago
-    ##   female                   0
-    ##   male                     1
-    ##         
-    ##          Turkey Tuscany
-    ##   female      0       0
-    ##   male        2       1
-    ##         
-    ##          Ukraine
-    ##   female       1
-    ##   male         0
-    ##         
-    ##          United Kingdom USA
-    ##   female              0  17
-    ##   male               89 272
-    ##         
-    ##          USSR Venezuela
-    ##   female    0         0
-    ##   male      7         1
-    ##         
-    ##          Vietnam West Germany
-    ##   female       0            0
-    ##   male         1            5
-    ##         
-    ##          Württemberg Yemen
-    ##   female           0     1
-    ##   male             1     0
+    ##          West Germany Württemberg Yemen
+    ##   female            0           0     1
+    ##   male              5           1     0
 
 The table shows some interesting information, including which countries
 have had the most past Nobel Prize winners. I am not too surprised to
@@ -660,33 +548,27 @@ laureates("Iran")
 ```
 
     ## # A tibble: 2 × 11
-    ##   id    fullName        gender
-    ##   <chr> <chr>           <chr> 
-    ## 1 1033  Narges Mohamma… female
-    ## 2 773   Shirin Ebadi    female
-    ## # ℹ 8 more variables:
-    ## #   awardYear <chr>,
-    ## #   category <chr>,
-    ## #   birthCity <chr>,
-    ## #   birthCountry <chr>,
-    ## #   cityNow <chr>,
-    ## #   countryNow <chr>, …
+    ##   id    fullName   gender awardYear category
+    ##   <chr> <chr>      <chr>  <chr>     <chr>   
+    ## 1 1033  Narges Mo… female 2023      Peace   
+    ## 2 773   Shirin Eb… female 2003      Peace   
+    ## # ℹ 6 more variables: birthCity <chr>,
+    ## #   birthCountry <chr>, cityNow <chr>,
+    ## #   countryNow <chr>, continent <chr>,
+    ## #   locationString <chr>
 
 ``` r
 laureates("Iraq")
 ```
 
     ## # A tibble: 1 × 11
-    ##   id    fullName        gender
-    ##   <chr> <chr>           <chr> 
-    ## 1 967   Nadia Murad Ba… female
-    ## # ℹ 8 more variables:
-    ## #   awardYear <chr>,
-    ## #   category <chr>,
-    ## #   birthCity <chr>,
-    ## #   birthCountry <chr>,
-    ## #   cityNow <chr>,
-    ## #   countryNow <chr>, …
+    ##   id    fullName   gender awardYear category
+    ##   <chr> <chr>      <chr>  <chr>     <chr>   
+    ## 1 967   Nadia Mur… female 2018      Peace   
+    ## # ℹ 6 more variables: birthCity <chr>,
+    ## #   birthCountry <chr>, cityNow <chr>,
+    ## #   countryNow <chr>, continent <chr>,
+    ## #   locationString <chr>
 
 The data shows that all three female laureates from these countries were
 winners of The Nobel Peace Prize. This led me to wonder whether female
@@ -744,18 +626,15 @@ nobelPrizes %>% group_by(category) %>%
 ```
 
     ## # A tibble: 6 × 6
-    ##   category       avgAmt medAmt
-    ##   <chr>           <dbl>  <int>
-    ## 1 Chemistry      2.68e6 2.57e5
-    ## 2 Economic Scie… 5.80e6 7.4 e6
-    ## 3 Literature     2.68e6 2.57e5
-    ## 4 Peace          2.68e6 2.57e5
-    ## 5 Physics        2.68e6 2.57e5
-    ## 6 Physiology or… 2.68e6 2.57e5
-    ## # ℹ 3 more variables:
-    ## #   minAmt <int>,
-    ## #   maxAmt <int>,
-    ## #   varAmt <dbl>
+    ##   category       avgAmt medAmt minAmt maxAmt
+    ##   <chr>           <dbl>  <int>  <int>  <int>
+    ## 1 Chemistry      2.68e6 2.57e5 114935 1.10e7
+    ## 2 Economic Scie… 5.80e6 7.4 e6 375000 1.10e7
+    ## 3 Literature     2.68e6 2.57e5 114935 1.10e7
+    ## 4 Peace          2.68e6 2.57e5 114935 1.10e7
+    ## 5 Physics        2.68e6 2.57e5 114935 1.10e7
+    ## 6 Physiology or… 2.68e6 2.57e5 114935 1.10e7
+    ## # ℹ 1 more variable: varAmt <dbl>
 
 Using this same data, I also created some boxplots for a better visual
 representation of the numerical summaries.
@@ -801,23 +680,20 @@ nobelPrizes %>% group_by(awardYear) %>%
 ```
 
     ## # A tibble: 123 × 6
-    ##    awardYear avgAmt medAmt
-    ##    <chr>      <dbl>  <dbl>
-    ##  1 1901      150782 150782
-    ##  2 1902      141847 141847
-    ##  3 1903      141358 141358
-    ##  4 1904      140859 140859
-    ##  5 1905      138089 138089
-    ##  6 1906      138536 138536
-    ##  7 1907      138796 138796
-    ##  8 1908      139800 139800
-    ##  9 1909      139800 139800
-    ## 10 1910      140703 140703
+    ##    awardYear avgAmt medAmt minAmt maxAmt
+    ##    <chr>      <dbl>  <dbl>  <int>  <int>
+    ##  1 1901      150782 150782 150782 150782
+    ##  2 1902      141847 141847 141847 141847
+    ##  3 1903      141358 141358 141358 141358
+    ##  4 1904      140859 140859 140859 140859
+    ##  5 1905      138089 138089 138089 138089
+    ##  6 1906      138536 138536 138536 138536
+    ##  7 1907      138796 138796 138796 138796
+    ##  8 1908      139800 139800 139800 139800
+    ##  9 1909      139800 139800 139800 139800
+    ## 10 1910      140703 140703 140703 140703
     ## # ℹ 113 more rows
-    ## # ℹ 3 more variables:
-    ## #   minAmt <int>,
-    ## #   maxAmt <int>,
-    ## #   varAmt <dbl>
+    ## # ℹ 1 more variable: varAmt <dbl>
 
 I also used this same data to create a scatter plot looking at changes
 over the years chronologically.
